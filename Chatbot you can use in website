@@ -12,7 +12,7 @@ messages = [{"role": "system", "content": "You are a real estate expert speciali
 def CustomChatGPT(user_input):
     # Check for "exit" to end the conversation
     if user_input.lower() == "exit":
-        return "Goodbye!"
+        return "Thankyou"
     
     # Append user's message to the conversation
     messages.append({"role": "user", "content": user_input})
